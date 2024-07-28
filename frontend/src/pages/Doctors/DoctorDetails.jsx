@@ -3,6 +3,7 @@ import star from '../../assets/images/Star.png';
 import  { useState } from 'react';
 import DoctorAbout from './DoctorAbout';
 import Feedback from './Feedback';
+import SidePanel from './SidePanel';
 
 const DoctorDetails = () => {
 
@@ -22,7 +23,7 @@ const DoctorDetails = () => {
               leading-4 lg:text-[16px] lg:leading-7 font-semibold rounded '>
               Surgeon
               </span>
-              <h3 className='text-headingColor text-[22px] leading-9 mt-3 font-bold '>Dr. Jane Smith</h3>
+              <h3 className='text-headingColor text-[22px] leading-9 mt-3 font-bold '>Dr. James Smith</h3>
               <div className=' flex items-center gap-[6px] '>
                 <span  className='flex items-center gap-[6px] text-[14px] leading-5 lg:text-[16px] 
                 lg:leading-7 font-semibold text-headingColor'>
@@ -61,7 +62,9 @@ const DoctorDetails = () => {
             </div>
           </div>
 
-          <div></div>
+          <div>
+            <SidePanel/>
+          </div>
         </div>
       </div>
     </section> 

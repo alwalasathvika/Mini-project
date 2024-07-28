@@ -6,10 +6,10 @@ const DoctorAbout = () => {
       <div>
         <h3 className="text-[20px] leading-[30px] text-headingColor font-semibold flex items-center gap-2">
           About
-          <span className="text-irisBlueColor font-bold text-[24px] leading-9">Nick Parke</span>
+          <span className="text-irisBlueColor font-bold text-[24px] leading-9">James Smith</span>
         </h3>
         <p className="text__para">
-          Dr. Nick Parke is a highly skilled and experienced general surgeon, renowned for his expertise in minimally invasive surgical techniques. With over 15 years of experience in the field, Dr. Parke has performed a wide range of complex surgeries, including laparoscopic procedures, gastrointestinal surgeries, and emergency trauma surgeries.
+          Dr. James smith is a highly skilled and experienced general surgeon, renowned for his expertise in minimally invasive surgical techniques. With over 15 years of experience in the field, Dr. Parke has performed a wide range of complex surgeries, including laparoscopic procedures, gastrointestinal surgeries, and emergency trauma surgeries.
         </p>
       </div>
       <div className="mt-12">
